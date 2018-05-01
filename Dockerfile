@@ -10,4 +10,5 @@ RUN apk add --no-cache \
     && mv gatling-charts-highcharts-bundle-2.3.1 gatling
 
 WORKDIR /gatling
+
 ENTRYPOINT ["bin/gatling.sh", "-s"]
