@@ -13,8 +13,8 @@
     Service
      |_ test
         	|_ gatling
-    			     |_ body
-    			     |_ data
-    			     |_ simulations
+                |_ body
+                |_ data
+                |_ simulations
 
     docker run --rm -v $(pwd)/results:/gatling/results -v $(pwd)/test/gatling:/gatling/user-files gatling sample.BasicSimulation
