@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package computerdatabase.advanced
+package sample.advanced
 
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
